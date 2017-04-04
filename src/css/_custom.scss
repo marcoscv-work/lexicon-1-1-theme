@@ -1,0 +1,79 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+@import "control_menu";
+
+#wrapper {
+	padding-top: 0;
+}
+
+// Secondary bar is the second state of management bar, currently it does not exist in Lexicon, only portal
+
+.management-bar-default.management-bar-secondary-bar {
+	background-color: $management-bar-secondary-bar-bg;
+
+	.active {
+		background-color: $management-bar-secondary-bar-bg-active-bg;
+	}
+
+	.btn-default {
+		&:hover, &:focus {
+			background-color: $management-bar-secondary-bar-bg-hover-bg;
+		}
+	}
+}
+
+// basic-search has not its own variables
+
+.navbar.collapse-basic-search .basic-search {
+	padding: $input-padding-vertical 0;
+
+	@media (min-width: $grid-float-breakpoint) {
+		padding: 13px 0;
+	}
+
+	.btn-default {
+		background-color: $input-bg;
+		border-radius: $border-radius-base;
+		padding-top: $input-padding-vertical / 2;
+		height: 32px;
+	}
+
+	.form-control {
+		background-color: $input-bg;
+		height: 32px;
+
+		@media (min-width: $grid-float-breakpoint) {
+			padding: $input-padding-vertical / 2 $input-padding-horizontal $input-padding-vertical / 2 $input-padding-horizontal;
+		}
+	}
+}
+
+.basic-search.open .basic-search-slider {
+	left: 12px;
+}
+
+// basic-search focus is shared with $navbar-link-active-bottom-border-width
+
+.navbar .basic-search {
+	&.focus:after {
+		background-color: #FFF; // $input-border-focus
+
+		@media (min-width: $grid-float-breakpoint) {
+			height: 0;
+			margin-top: 0;
+		}
+	}
+}
+
+// btn Mixins does not support color changes
+
+.btn-default, .management-bar-default .btn-default, .management-bar-default .nav >li > .btn-default {
+	&:focus, &:hover, &.active, &.active:hover {
+		color: $btn-default-active-color;
+	}
+}

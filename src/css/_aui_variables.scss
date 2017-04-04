@@ -1,0 +1,142 @@
+// Icon paths
+
+$FontAwesomePath: "aui/lexicon/fonts/alloy-font-awesome/font";
+$font-awesome-path: "aui/lexicon/fonts/alloy-font-awesome/font";
+$icon-font-path: "aui/lexicon/fonts/";
+
+// CE Colors
+
+$brand-default: #587283 !default;
+$brand-primary: #419BEB !default;
+$brand-success: #5FA141 !default;
+$brand-info: #5883D1 !default;
+$brand-warning: #F07200 !default;
+$brand-danger: #CC6677 !default;
+
+$text-color: #29353D !default;
+
+$body-bg: #EFF3F5 !default;
+
+// DE Colors
+
+/* $brand-default: #6B6C7E !default;
+$brand-primary: #4887FF !default;
+$brand-success: #3CA064 !default;
+$brand-info: #5883D2 !default;
+$brand-warning: #E66A00 !default;
+$brand-danger: #F05A5A !default;
+
+$text-color: #272833 !default;
+
+$body-bg: #F1F2F5 !default; */
+
+// Forms
+
+$input-border-bottom-width: 1px !default;
+$input-border-left-width: 1px !default;
+$input-border-right-width: 1px !default;
+$input-border-top-width: 1px !default;
+
+$input-padding-horizontal: 16px !default;
+$input-padding-vertical: 8px !default;
+
+$input-bg: #F1F3F5 !default;
+$input-border: #EAEBED !default;
+$input-border-focus: #A4C7FF !default;
+$input-border-radius: 3px !default;
+$input-box-shadow: none !default;
+$input-box-shadow-focus: none !default;
+
+$input-bg-focus: #eaf4fe !default;
+
+$input-bg-disabled: #eaebed !default;
+$input-border-disabled: $input-bg-disabled !default;
+$input-color-disabled: #999 !default;
+$input-opacity-disabled: 0.6 !default;
+
+$input-color-focus: $text-color !default;
+$input-color-placeholder: #989da6 !default;
+$input-color-placeholder-focus: $input-color-placeholder !default;
+
+$input-label-color: #41444B !default;
+$input-label-reference-mark-spacer: 0 !default;
+$input-label-reference-mark-vertical-alignment: top !default;
+
+$input-readonly-bg: #eaebed !default;
+$input-readonly-border: #eaebed !default;
+$input-readonly-color: $text-color !default;
+
+$input-select-icon-color: $text-color !default;
+$input-select-icon-focus-color: $input-select-icon-color !default;
+
+$input-select-bg-position: right 5px center !default;
+$input-select-padding-right: 28px !default;
+
+$input-textarea-height: 175px !default;
+
+$input-danger-bg: #ffefef !default;
+$input-danger-bg-focus: $input-danger-bg !default;
+$input-danger-border: #e3a9a8 !default;
+$input-danger-border-focus: $input-danger-border !default;
+$input-danger-box-shadow: none !default;
+$input-danger-box-shadow-focus: none !default;
+$input-danger-label-color: $input-label-color !default;
+$input-danger-checkbox-label-color: $brand-danger !default;
+
+$input-success-bg: #eafaf0 !default;
+$input-success-bg-focus: $input-success-bg !default;
+$input-success-border: #a7cab2 !default;
+$input-success-border-focus: $input-success-border !default;
+$input-success-box-shadow: none !default;
+$input-success-box-shadow-focus: none !default;
+$input-success-label-color: $input-label-color !default;
+$input-success-checkbox-label-color: $brand-success !default;
+
+$input-warning-bg: #fdf2ec !default;
+$input-warning-bg-focus: $input-warning-bg !default;
+$input-warning-border: #deb9a6 !default;
+$input-warning-border-focus: $input-warning-border !default;
+$input-warning-box-shadow: none !default;
+$input-warning-box-shadow-focus: none !default;
+$input-warning-label-color: $input-label-color !default;
+$input-warning-checkbox-label-color: $brand-warning !default;
+
+$input-group-addon-border-radius: $input-border-radius !default;
+$input-group-default-addon-content-border-bottom-width: 0 !default;
+
+// Form splitter
+
+$splitter-bg: #E7E7ED !default;
+$splitter-border-radius: 4px 4px 0 0 !default;
+$splitter-box-shadow: none;
+$splitter-padding: 10px 15px 10px 24px !default;
+
+
+// Management bar
+
+$management-bar-default-bg: #FFF !default;
+$management-bar-default-btn-default-border: transparent !default;
+$management-bar-default-btn-default-active-bg: #F1F2F5 !default;
+$management-bar-default-btn-default-hover-bg: lighten($management-bar-default-btn-default-active-bg, 2%) !default;
+
+$management-bar-secondary-bar-bg: #B3CDFF;
+$management-bar-secondary-bar-bg-hover-bg: darken($management-bar-secondary-bar-bg, 3%) !default;
+$management-bar-secondary-bar-bg-active-bg: darken($management-bar-secondary-bar-bg, 5%) !default;
+
+// List groups
+
+$list-group-active-bg: #F0F5FF !default;
+$list-group-border: #E7E7ED !default;
+
+$tabular-list-group-active-border-bottom-width: 0 !default;
+
+// Navbar
+
+$navbar-default-collapsible-search-focus-highlight: transparent !default;
+$navbar-default-collapsible-search-highlight: transparent !default;
+$navbar-link-active-bottom-border-width: 3px !default;
+
+// Buttons
+
+$btn-default-active-color: $text-color !default;
+$btn-default-hover-color: $text-color !default;
