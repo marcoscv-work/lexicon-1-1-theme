@@ -74,7 +74,7 @@
 
 // btn Mixins does not support color changes
 
-.btn-default, .management-bar-default .btn-default, .management-bar-default .nav >li > .btn-default {
+.btn-default, .management-bar-default .btn-default, .management-bar-default .nav > li > .btn-default {
 	&:focus, &:hover, &.active, &.active:hover {
 		color: $btn-default-active-color;
 	}
