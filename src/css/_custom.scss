@@ -54,16 +54,21 @@
 	left: 12px;
 }
 
+// In atlas is alway transparent: background-color: if(variable-exists(atlas-theme), transparent, $navbar-default-bg);
+
+.navbar-default.collapse-basic-search .basic-search {
+	&.open {
+		background-color: #FFF;
+		border-bottom: 1px solid $navbar-default-border; // Add same border bottom than navbar-default
+	}
+}
+
 // basic-search focus is shared with $navbar-link-active-bottom-border-width
 
 .navbar .basic-search {
-	&.focus:after {
-		background-color: #FFF; // $input-border-focus
-
-		@media (min-width: $grid-float-breakpoint) {
-			height: 0;
-			margin-top: 0;
-		}
+	&.open:after, &.focus:after {
+		height: 0;
+		margin-top: 0;
 	}
 }
 
