@@ -6,10 +6,7 @@
 /* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
 
 @import "control_menu";
-
-#wrapper {
-	padding-top: 0;
-}
+@import "admin"; // Admin styles
 
 // Secondary bar is the second state of management bar, currently it does not exist in Lexicon, only portal
 
